@@ -9,6 +9,6 @@ class PersistentSessionAttributeValue {
 	byte[] serialized
 
 	static constraints = {
-		serialized maxSize: 20000
+		serialized maxSize: 20000000000
 	}
 }
